@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verdant — Landscape & Garden Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <a href="#" class="nav__logo">Verdant</a>
+    <ul class="nav__links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Our Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="nav__cta">Get a Quote</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile" id="mobileMenu">
+    <a href="#services">Services</a>
+    <a href="#work">Our Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Get a Quote</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="hero__leaf hero__leaf--1">🌿</div>
+      <div class="hero__leaf hero__leaf--2">🍃</div>
+      <div class="hero__leaf hero__leaf--3">🌱</div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">Landscape Design & Garden Care</p>
+      <h1 class="hero__title reveal">
+        We Shape <em>Living</em><br />
+        Spaces
+      </h1>
+      <p class="hero__sub reveal">
+        Transforming yards, gardens, and outdoor spaces into breathing works of art — rooted in nature, crafted for life.
+      </p>
+      <div class="hero__actions reveal">
+        <a href="#contact" class="btn btn--primary">Start Your Project</a>
+        <a href="#work" class="btn btn--ghost">See Our Work</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Landscape Design</span>
+      <span>·</span>
+      <span>Garden Maintenance</span>
+      <span>·</span>
+      <span>Hardscaping</span>
+      <span>·</span>
+      <span>Irrigation Systems</span>
+      <span>·</span>
+      <span>Tree & Shrub Care</span>
+      <span>·</span>
+      <span>Seasonal Planting</span>
+      <span>·</span>
+      <span>Landscape Design</span>
+      <span>·</span>
+      <span>Garden Maintenance</span>
+      <span>·</span>
+      <span>Hardscaping</span>
+      <span>·</span>
+      <span>Irrigation Systems</span>
+      <span>·</span>
+      <span>Tree & Shrub Care</span>
+      <span>·</span>
+      <span>Seasonal Planting</span>
+      <span>·</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Services Built<br /><em>for Every Season</em></h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">🌳</div>
+          <h3>Landscape Design</h3>
+          <p>Custom-designed outdoor environments tailored to your property, lifestyle, and local ecosystem. From concept to completion.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">✂️</div>
+          <h3>Garden Maintenance</h3>
+          <p>Recurring lawn care, pruning, edging, weeding, and seasonal clean-ups that keep your property looking pristine year-round.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">🪨</div>
+          <h3>Hardscaping</h3>
+          <p>Patios, walkways, retaining walls, and outdoor structures crafted from premium stone, brick, and timber materials.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">💧</div>
+          <h3>Irrigation Systems</h3>
+          <p>Smart, water-efficient irrigation systems designed to keep your plants healthy while reducing water waste and utility costs.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">🌺</div>
+          <h3>Seasonal Planting</h3>
+          <p>Vibrant seasonal plantings — spring bulbs, summer annuals, fall color, winter evergreens — for color all year long.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">🌲</div>
+          <h3>Tree & Shrub Care</h3>
+          <p>Professional pruning, fertilization, pest management, and health assessments to keep your trees and shrubs thriving.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stat reveal">
+          <span class="stat__num" data-count="350">0</span><span class="stat__plus">+</span>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="18">0</span><span class="stat__plus">yrs</span>
+          <p>Years of Experience</p>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="97">0</span><span class="stat__plus">%</span>
+          <p>Client Satisfaction</p>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="12">0</span><span class="stat__plus">+</span>
+          <p>Awards & Recognition</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Spaces We've<br /><em>Brought to Life</em></h2>
+      </div>
+
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="hardscape">Hardscape</button>
+        <button class="filter-btn" data-filter="garden">Garden</button>
+      </div>
+
+      <div class="work__grid">
+
+        <div class="work-card reveal" data-cat="design">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #2d5016 0%, #4a7c2f 50%, #6ba348 100%);">
+            <div class="work-card__overlay">
+              <span>Modern Prairie Estate</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>Modern Prairie Estate</h4>
+            <span>Landscape Design</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal" data-cat="hardscape">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #5c4b3a 0%, #8b7355 50%, #b5956a 100%);">
+            <div class="work-card__overlay">
+              <span>Bluestone Terrace</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>Bluestone Terrace</h4>
+            <span>Hardscaping</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal" data-cat="garden">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #1a4a1a 0%, #3d7a3d 50%, #6ab46a 100%);">
+            <div class="work-card__overlay">
+              <span>English Cottage Garden</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>English Cottage Garden</h4>
+            <span>Garden Design</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal" data-cat="design">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #0d3b2e 0%, #1a6b4a 50%, #2d9e6e 100%);">
+            <div class="work-card__overlay">
+              <span>Desert Zen Courtyard</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>Desert Zen Courtyard</h4>
+            <span>Landscape Design</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal" data-cat="hardscape">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #3d2b1a 0%, #7a5533 50%, #c4885a 100%);">
+            <div class="work-card__overlay">
+              <span>Cedar Pergola Retreat</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>Cedar Pergola Retreat</h4>
+            <span>Hardscaping</span>
+          </div>
+        </div>
+
+        <div class="work-card reveal" data-cat="garden">
+          <div class="work-card__img" style="background: linear-gradient(135deg, #2b4a1a 0%, #558033 50%, #8bbf5a 100%);">
+            <div class="work-card__overlay">
+              <span>Wildflower Meadow</span>
+            </div>
+          </div>
+          <div class="work-card__info">
+            <h4>Wildflower Meadow</h4>
+            <span>Garden Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__visual reveal">
+          <div class="about__img-block">
+            <div class="about__img-main"></div>
+            <div class="about__img-badge">
+              <span>Est. 2006</span>
+              <p>Rooted in Craft</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__content reveal">
+          <span class="section-tag">Our Story</span>
+          <h2 class="section-title">Nature-First<br /><em>Philosophy</em></h2>
+          <p>Founded in 2006, Verdant was built on a simple belief: great landscapes start with deep respect for the land itself. We study each property's soil, light, water, and microclimate before a single plant goes in the ground.</p>
+          <p>Our team of certified horticulturists and landscape architects bring artistry and ecological thinking together — creating spaces that are beautiful today and sustainable for decades.</p>
+          <div class="about__pillars">
+            <div class="pillar">
+              <span class="pillar__icon">🌍</span>
+              <div>
+                <strong>Eco-Conscious</strong>
+                <p>Native plants, organic inputs, and water-wise design at the core of every project.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <span class="pillar__icon">🏅</span>
+              <div>
+                <strong>Certified Experts</strong>
+                <p>Licensed landscape architects and ISA-certified arborists on every team.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary">Meet the Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">What Our Clients<br /><em>Are Saying</em></h2>
+      </div>
+      <div class="testimonials__grid">
+
+        <div class="testimonial reveal">
+          <p>"Verdant completely transformed our backyard. What was once a muddy slope is now a terraced garden we live in every evening. Worth every penny."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">SR</div>
+            <div>
+              <strong>Sarah R.</strong>
+              <span>Homeowner, Austin TX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial reveal">
+          <p>"The team's knowledge of native plants made all the difference. Our lawn now practically maintains itself and the neighbors keep asking who did it."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">MK</div>
+            <div>
+              <strong>Marcus K.</strong>
+              <span>Property Developer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial reveal">
+          <p>"Professional, creative, and on time. The hardscaping they installed has become the centerpiece of our outdoor entertaining space. Stunning work."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar">JP</div>
+            <div>
+              <strong>Julia P.</strong>
+              <span>Homeowner, Denver CO</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__layout">
+        <div class="contact__info reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Grow<br /><em>Something Beautiful</em></h2>
+          <p>Ready to reimagine your outdoor space? Tell us about your project and we'll be in touch within one business day.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <span>📍</span>
+              <p>1248 Garden Way, Boulder, CO 80302</p>
+            </div>
+            <div class="contact__detail">
+              <span>📞</span>
+              <p>(720) 555-0182</p>
+            </div>
+            <div class="contact__detail">
+              <span>✉️</span>
+              <p>hello@verdantlandscape.com</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>Landscape Design</option>
+              <option>Garden Maintenance</option>
+              <option>Hardscaping</option>
+              <option>Irrigation Systems</option>
+              <option>Seasonal Planting</option>
+              <option>Tree & Shrub Care</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe your space, goals, and timeline…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form__success" id="formSuccess">✅ Thanks! We'll be in touch soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__logo">Verdant</span>
+          <p>Rooted in nature.<br />Crafted for life.</p>
+        </div>
+        <div class="footer__links">
+          <h5>Services</h5>
+          <a href="#services">Landscape Design</a>
+          <a href="#services">Garden Maintenance</a>
+          <a href="#services">Hardscaping</a>
+          <a href="#services">Irrigation</a>
+        </div>
+        <div class="footer__links">
+          <h5>Company</h5>
+          <a href="#about">About Us</a>
+          <a href="#work">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__social">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Pinterest">PT</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Verdant Landscape. All rights reserved.</p>
+        <p>Privacy Policy · Terms of Service</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
